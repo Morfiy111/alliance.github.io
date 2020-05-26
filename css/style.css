@@ -101,6 +101,7 @@ a:focus, a:hover {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 .partners-icon img {
     width: 100%;
@@ -110,12 +111,27 @@ a:focus, a:hover {
     width: 20%;
     text-align: center;
 }
+.worldchild-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 588px;
+    margin: auto;
+}
+.worldchild-image {
+    margin-right: 20px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
         justify-content: center;
         font-size: 22px;
         font-weight: bold;
+    }
+}
+@media (max-width: 991px) {
+    .services-item {
+        width: 20%;
     }
 }
 @media (max-width: 767px) {
@@ -161,4 +177,17 @@ a:focus, a:hover {
     .header-logo {
         margin: auto;
     }
+    .worldchild-block {
+        width: 100%;
+    }
+    .services-item {
+        width: 33%;
+    }
+    .partners-item {
+        width: 48%;
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 500px) {
+    
 }
