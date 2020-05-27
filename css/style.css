@@ -151,6 +151,9 @@ a:focus, a:hover {
     font-size: 22px;
     font-weight: bold;
 }
+.navbar-nav-block > li > a:hover {
+    color: #f7911d;
+}
 .navbar-nav-block > li {
     list-style: none;
     margin-left: 30px;
