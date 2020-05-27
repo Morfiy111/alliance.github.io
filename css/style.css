@@ -137,10 +137,23 @@ a:focus, a:hover {
     margin-bottom: 40px;
 }
 .square-min-margin {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .footer-blue {
     background-color: #ddf1ff;
+}
+.navbar-nav-block {
+    display: flex;
+}
+.navbar-nav-block > li > a {
+    color: #002c7a;
+    padding: 10px 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+.navbar-nav-block > li {
+    list-style: none;
+    margin-left: 30px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
@@ -162,6 +175,12 @@ a:focus, a:hover {
     }
     .navbar-nav > li {
         margin-left: 0;
+    }
+    .navbar-nav-block {
+        flex-wrap: wrap;
+    }
+    .navbar-nav-block > li {
+        margin-bottom: 15px;
     }
 }
 @media (max-width: 767px) {
@@ -216,6 +235,16 @@ a:focus, a:hover {
     .partners-item {
         width: 48%;
         margin-bottom: 40px;
+    }
+    .footer-blue .header-logo {
+        margin-bottom: 20px;
+    }
+    .navbar-nav-block > li {
+        margin-left: 0;
+    }
+    .navbar-nav-block {
+        padding-left: 0;
+        justify-content: space-between;
     }
 }
 @media (max-width: 500px) {

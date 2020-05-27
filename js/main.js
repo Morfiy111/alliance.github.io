@@ -4,7 +4,7 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function(){
-    $(".navbar-nav li").on("click","a", function (event) {
+    $(".navbar-nav li, .navbar-nav-block li").on("click","a", function (event) {
         event.preventDefault();
         var id  = $(this).attr('href'),
             top = $(id).offset().top;
