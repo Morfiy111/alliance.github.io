@@ -158,6 +158,9 @@ a:focus, a:hover {
     list-style: none;
     margin-left: 30px;
 }
+.about-block-text p b {
+    display: block;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
